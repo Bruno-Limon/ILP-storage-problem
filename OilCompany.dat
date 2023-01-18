@@ -1,0 +1,15 @@
+data;
+set fuel := diesel regular premium;
+set compartment := c1 c2 c3 c4 c5;
+
+param demand :=
+diesel 2700
+regular 3500
+premium 4200;
+
+param max_capacity :=
+c1 2500
+c2 2000
+c3 1500
+c4 1800
+c5 2300;
